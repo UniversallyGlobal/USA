@@ -1,0 +1,557 @@
+<body class="theme-bg ember-application theme-light-gray">
+  <script nonce="">
+    window.App = require('cash/app')["default"].create();
+  </script>
+
+
+<div id="ember670" class="ember-view"><div data-current-route="account-activity" id="ember694" class="full-height application-cash ember-view">  <div id="ember701" class="cookie-banner ember-view"><!----></div>
+  <!----> 
+<div class="full-screen-payment-blockers">
+  <!----> 
+</div>
+
+<div class="flex-container flex-v full height account-new ">
+<!---->  <div class="layout-account-new flex-container flex-h flex-fill">
+    <div class="account-navigation-bar flex-container">
+      <div class="customer-info">
+        <div class="customer-profile-simple">
+          <i style="" id="ember714" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/apps/imgs/4nBuPG3pciY0bSOvdmZtZG.jpeg?width=68" class="avatar-image">
+
+</i>
+          <h3 id="ember717" class="display-name display-name-with-icon ember-view"><span class="name truncate-text">Diego</span><!----><!---->
+</h3>
+            <h4 class="cashtag">
+              <a href="/$UniversallyGlobal" id="ember720" class="ember-view">$UniversallyGlobal</a>
+            </h4>
+        </div>
+      </div>
+      <nav class="nav-items">
+<a title="Activity" href="/account/activity" id="ember766" class="nav-item activity active ember-view"><!---->          <div id="ember773" class="inline-svg ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><g fill="#FFF" fill-rule="evenodd"><path d="M11 0C4.9 0 0 4.9 0 11s4.9 11 11 11 11-4.9 11-11S17.1 0 11 0zm0 20c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9z"></path><path d="M12 6h-2v6.5l4.5 2.4 1-1.8-3.5-1.8V6z"></path></g></svg></div>
+          <span class="nav-item-label">Activity</span>
+</a><a title="Cash Card" href="/account/mycash" id="ember784" class="nav-item mycash  ember-view">          <div id="ember793" class="inline-svg ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><path d="M11 0c6.072 0 11 4.928 11 11s-4.928 11-11 11S0 17.072 0 11 4.928 0 11 0zm0 2c-4.968 0-9 4.032-9 9s4.032 9 9 9 9-4.032 9-9-4.032-9-9-9zm2.303 7.2a.288.288 0 0 0 .403-.009l.552-.569a.296.296 0 0 0-.014-.426 4.341 4.341 0 0 0-1.478-.844l.173-.838a.292.292 0 0 0-.283-.354h-1.065a.29.29 0 0 0-.283.233l-.156.744c-1.416.072-2.616.79-2.616 2.265 0 1.277.993 1.824 2.041 2.202.993.379 1.518.52 1.518 1.052 0 .547-.525.87-1.297.87-.705 0-1.443-.237-2.015-.81a.284.284 0 0 0-.404-.002l-.593.594a.299.299 0 0 0 .002.423 3.9 3.9 0 0 0 1.714.97l-.162.776a.292.292 0 0 0 .28.355l1.067.008a.29.29 0 0 0 .285-.233l.154-.746c1.696-.106 2.734-1.043 2.734-2.416 0-1.262-1.034-1.795-2.29-2.23-.717-.266-1.338-.448-1.338-.995 0-.533.58-.744 1.159-.744.74 0 1.449.305 1.913.724z" fill-rule="nonzero"></path></svg></div>
+          <span class="nav-item-label">$808187.86</span>
+</a><a title="Settings" href="/account/settings" id="ember798" class="nav-item settings ember-view">          <div id="ember807" class="inline-svg ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22"><g fill="#FFF" fill-rule="evenodd"><path d="M22.5 11c0-6.1-4.9-11-11-11S.5 4.9.5 11c0 4.7 2.9 8.7 7.1 10.3 1.1.5 2.4.7 3.9.7s2.9-.3 3.9-.7c4.2-1.6 7.1-5.6 7.1-10.3zm-5.4 7c-.8-1.2-3-2-5.6-2-2.6 0-4.8.8-5.6 2-2-1.7-3.4-4.2-3.4-7 0-5 4-9 9-9s9 4 9 9c0 2.8-1.3 5.3-3.4 7z"></path><circle cx="11.5" cy="9" r="3"></circle></g></svg></div>
+          <span class="nav-item-label">Settings</span>
+</a>        <a href="#" title="Sign Out" class="nav-item signout" data-ember-action="" data-ember-action-816="816">
+          <div id="ember817" class="inline-svg ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22"><g fill="#FFF" fill-rule="evenodd"><path d="M11.5 22c-6.1 0-11-4.9-11-11s4.9-11 11-11 11 4.9 11 11-4.9 11-11 11zm0-20c-5 0-9 4-9 9s4 9 9 9 9-4 9-9-4-9-9-9z"></path><path d="M7 10h9v2H7z"></path></g></svg></div>
+          <span class="nav-item-label">Sign Out</span>
+        </a>
+        <a href="#" data-link-label="Navbar Create Payment" title="New" class="nav-item create-payment" data-ember-action="" data-ember-action-826="826">
+          <span class="button-text">New</span>
+        </a>
+      </nav>
+    </div>
+    <section class="yield-content flex-fill flex-v">
+      <section class="flex-container activity-history">
+  <header class="activity-header flex-static">
+    <div class="header-content flex-container flex-h">
+      <label for="search_term" class="header-icon icon-search"></label>
+<form id="ember838" class="search-bar ember-view">          <div id="ember858" class="field fk-field-container ember-view"><input type="text" aria-label="Search" name="searchTerm" autocomplete="off" spellcheck="false" autocapitalize="off" id="search_term" class="ember-text-field ember-view" placeholder="Search">
+</div>
+</form>          <a href="#" title="Statements" data-link-label="Toggle statement selector" class="header-icon icon-csv-download statement-selector-trigger  " data-ember-action="" data-ember-action-871="871"><span class="download-text">Statements</span></a>
+    </div>
+<div id="ember880" class="flyout-menu activity-statement-selector ember-view">        <div id="ember885" class="scroll-container activity-available-statement-list ember-view"><a href="/documents/transaction-history" target="_blank" rel="noopener noreferrer" title="Export CSV" data-link-label="Download CSV" class="export-csv">Export CSV</a>
+<a href="/statements/June-2022" id="ember895" class="activity-statement-selector-item ember-view">      June 2022
+</a><a href="/statements/May-2022" id="ember905" class="activity-statement-selector-item ember-view">      May 2022
+</a><a href="/statements/April-2022" id="ember907" class="activity-statement-selector-item ember-view">      April 2022
+</a><a href="/statements/March-2022" id="ember909" class="activity-statement-selector-item ember-view">      March 2022
+</a><a href="/statements/February-2022" id="ember911" class="activity-statement-selector-item ember-view">      February 2022
+</a><a href="/statements/January-2022" id="ember913" class="activity-statement-selector-item ember-view">      January 2022
+</a><a href="/statements/December-2021" id="ember915" class="activity-statement-selector-item ember-view">      December 2021
+</a><a href="/statements/November-2021" id="ember917" class="activity-statement-selector-item ember-view">      November 2021
+</a><a href="/statements/October-2021" id="ember919" class="activity-statement-selector-item ember-view">      October 2021
+</a><a href="/statements/September-2021" id="ember921" class="activity-statement-selector-item ember-view">      September 2021
+</a><a href="/statements/August-2021" id="ember923" class="activity-statement-selector-item ember-view">      August 2021
+</a><a href="/statements/July-2021" id="ember925" class="activity-statement-selector-item ember-view">      July 2021
+</a><a href="/statements/June-2021" id="ember927" class="activity-statement-selector-item ember-view">      June 2021
+</a><a href="/statements/May-2021" id="ember929" class="activity-statement-selector-item ember-view">      May 2021
+</a><a href="/statements/April-2021" id="ember931" class="activity-statement-selector-item ember-view">      April 2021
+</a><a href="/statements/March-2021" id="ember933" class="activity-statement-selector-item ember-view">      March 2021
+</a><a href="/statements/February-2021" id="ember935" class="activity-statement-selector-item ember-view">      February 2021
+</a><a href="/statements/January-2021" id="ember937" class="activity-statement-selector-item ember-view">      January 2021
+</a><a href="/statements/December-2020" id="ember939" class="activity-statement-selector-item ember-view">      December 2020
+</a><a href="/statements/November-2020" id="ember941" class="activity-statement-selector-item ember-view">      November 2020
+</a><a href="/statements/October-2020" id="ember943" class="activity-statement-selector-item ember-view">      October 2020
+</a><a href="/statements/September-2020" id="ember945" class="activity-statement-selector-item ember-view">      September 2020
+</a><a href="/statements/August-2020" id="ember947" class="activity-statement-selector-item ember-view">      August 2020
+</a><a href="/statements/July-2020" id="ember949" class="activity-statement-selector-item ember-view">      July 2020
+</a><a href="/statements/June-2020" id="ember951" class="activity-statement-selector-item ember-view">      June 2020
+</a><a href="/statements/May-2020" id="ember953" class="activity-statement-selector-item ember-view">      May 2020
+</a><a href="/statements/April-2020" id="ember955" class="activity-statement-selector-item ember-view">      April 2020
+</a><a href="/statements/March-2020" id="ember957" class="activity-statement-selector-item ember-view">      March 2020
+</a><a href="/statements/February-2020" id="ember959" class="activity-statement-selector-item ember-view">      February 2020
+</a><a href="/statements/January-2020" id="ember961" class="activity-statement-selector-item ember-view">      January 2020
+</a><a href="/statements/December-2019" id="ember963" class="activity-statement-selector-item ember-view">      December 2019
+</a><a href="/statements/November-2019" id="ember965" class="activity-statement-selector-item ember-view">      November 2019
+</a><a href="/statements/October-2019" id="ember967" class="activity-statement-selector-item ember-view">      October 2019
+</a><a href="/statements/September-2019" id="ember969" class="activity-statement-selector-item ember-view">      September 2019
+</a><a href="/statements/August-2019" id="ember971" class="activity-statement-selector-item ember-view">      August 2019
+</a><a href="/statements/July-2019" id="ember973" class="activity-statement-selector-item ember-view">      July 2019
+</a><a href="/statements/June-2019" id="ember975" class="activity-statement-selector-item ember-view">      June 2019
+</a><a href="/statements/May-2019" id="ember977" class="activity-statement-selector-item ember-view">      May 2019 and ATM Fee Change Disclosure
+</a><a href="/statements/April-2019" id="ember979" class="activity-statement-selector-item ember-view">      April 2019
+</a><a href="/statements/March-2019" id="ember981" class="activity-statement-selector-item ember-view">      March 2019
+</a><a href="/statements/February-2019" id="ember983" class="activity-statement-selector-item ember-view">      February 2019
+</a><a href="/statements/January-2019" id="ember985" class="activity-statement-selector-item ember-view">      January 2019
+</a><a href="/statements/December-2018" id="ember987" class="activity-statement-selector-item ember-view">      December 2018
+</a><a href="/statements/November-2018" id="ember989" class="activity-statement-selector-item ember-view">      November 2018
+</a></div>
+</div>  </header>
+<div id="ember992" class="vertical-scroll-container activity-list-container flex-fill ember-view">      <div id="ember1106" class="activity-list-sections ember-view"><!---->      <div id="ember1115" class="activity-list-component ember-view"><h2 class="account-module-header activity-title activity-column">Transactions</h2>
+<ul class="activity-list">
+    <li id="ember1121" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1122="1122">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1123" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/apps/imgs/1LZ3cP68Nd2XqQLr7gRLU.jpeg?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <div title="business icon" id="ember1128" class="inline-svg inline-history-icon inline-history-icon--business ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path d="M1.5 13h1V4h5v3h2v6h1V6h-2V3h-7v10zm3-8v2h-1V5h1zm1 0h1v2h-1V5zm-2 3h1v2h-1V8zm2 0h1v2h-1V8zm-2 3h1v2h-1v-2zm2 0h1v2h-1v-2zm2-3h1v2h-1V8zm0 3h1v2h-1v-2z" fill-rule="evenodd"></path></svg></div>
+      Diego A Vasquez
+    </div>
+    <div class="subtitle truncate-text">
+      <!---->
+      On Monday
+    </div>
+  </div>
+  <div class="date">Monday</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-standard">$80000</span>
+  </div>
+</div>
+</li>
+    <li id="ember1130" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1131="1131">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1132" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/m_apple2.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Apple
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1133" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Sunday</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$9.99</span>
+  </div>
+</div>
+</li>
+    <li id="ember1135" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1136="1136">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1137" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/m_7eleven.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      7-Eleven
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="alert icon" id="ember1138" class="inline-svg inline-history-icon inline-history-icon--alert ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><g fill="#999" fill-rule="evenodd"><path d="M7.845 2.227L3.377 9.79c-.166.28-.205.21.126.21h8.994c.335 0 .293.073.126-.21L8.155 2.227c-.173-.292-.137-.292-.31 0zm-.86-.508c.56-.95 1.472-.946 2.03 0l4.47 7.562c.56.95.121 1.719-.988 1.719H3.503c-1.106 0-1.546-.773-.987-1.719L6.984 1.72z"></path><path d="M7.5 8h1v1h-1zM7.5 4.5h1V7h-1z"></path></g></svg></div>
+      Declined
+    </div>
+  </div>
+  <div class="date">Jun 24</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$5.18</span>
+  </div>
+</div>
+</li>
+    <li id="ember1140" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1141="1141">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1142" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/static/m_xbox.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Xbox
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1143" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 23</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$99.99</span>
+  </div>
+</div>
+</li>
+    <li id="ember1145" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1146="1146">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#F46E38;" id="ember1147" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_business.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Wix.com Premium Plan
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1148" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Cash Card
+    </div>
+  </div>
+  <div class="date">Jun 21</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-standard">$14.95</span>
+  </div>
+</div>
+</li>
+    <li id="ember1150" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1151="1151">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1152" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/apps/imgs/1LZ3cP68Nd2XqQLr7gRLU.jpeg?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <div title="business icon" id="ember1153" class="inline-svg inline-history-icon inline-history-icon--business ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path d="M1.5 13h1V4h5v3h2v6h1V6h-2V3h-7v10zm3-8v2h-1V5h1zm1 0h1v2h-1V5zm-2 3h1v2h-1V8zm2 0h1v2h-1V8zm-2 3h1v2h-1v-2zm2 0h1v2h-1v-2zm2-3h1v2h-1V8zm0 3h1v2h-1v-2z" fill-rule="evenodd"></path></svg></div>
+      Diego A Vasquez
+    </div>
+    <div class="subtitle truncate-text">
+      <!---->
+      On Jun 18
+    </div>
+  </div>
+  <div class="date">Jun 18</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-standard">+ $21</span>
+  </div>
+</div>
+</li>
+    <li id="ember1155" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1156="1156">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1157" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/static/m_xbox.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Xbox
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1158" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 18</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$99.99</span>
+  </div>
+</div>
+</li>
+    <li id="ember1160" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1161="1161">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#F46E38;" id="ember1162" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_business.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Wix.com Premium Plan
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1163" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 17</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$14.95</span>
+  </div>
+</div>
+</li>
+    <li id="ember1165" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1166="1166">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1167" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/static/m_xbox.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Xbox
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1168" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 15</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$99.99</span>
+  </div>
+</div>
+</li>
+    <li id="ember1170" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1171="1171">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#F46E38;" id="ember1172" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_business.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Wix.com Premium Plan
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1173" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 14</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$14.95</span>
+  </div>
+</div>
+</li>
+    <li id="ember1175" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1176="1176">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1177" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/m_apple2.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Apple
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1178" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 13</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$9.99</span>
+  </div>
+</div>
+</li>
+    <li id="ember1180" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1181="1181">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1182" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/static/icons/icon-512-v2.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Cash Out
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="alert icon" id="ember1183" class="inline-svg inline-history-icon inline-history-icon--alert ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><g fill="#999" fill-rule="evenodd"><path d="M7.845 2.227L3.377 9.79c-.166.28-.205.21.126.21h8.994c.335 0 .293.073.126-.21L8.155 2.227c-.173-.292-.137-.292-.31 0zm-.86-.508c.56-.95 1.472-.946 2.03 0l4.47 7.562c.56.95.121 1.719-.988 1.719H3.503c-1.106 0-1.546-.773-.987-1.719L6.984 1.72z"></path><path d="M7.5 8h1v1h-1zM7.5 4.5h1V7h-1z"></path></g></svg></div>
+      Declined
+    </div>
+  </div>
+  <div class="date">Jun 12</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$20</span>
+  </div>
+</div>
+</li>
+    <li id="ember1185" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1186="1186">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1187" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/m_7eleven.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      7-Eleven
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="alert icon" id="ember1188" class="inline-svg inline-history-icon inline-history-icon--alert ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><g fill="#999" fill-rule="evenodd"><path d="M7.845 2.227L3.377 9.79c-.166.28-.205.21.126.21h8.994c.335 0 .293.073.126-.21L8.155 2.227c-.173-.292-.137-.292-.31 0zm-.86-.508c.56-.95 1.472-.946 2.03 0l4.47 7.562c.56.95.121 1.719-.988 1.719H3.503c-1.106 0-1.546-.773-.987-1.719L6.984 1.72z"></path><path d="M7.5 8h1v1h-1zM7.5 4.5h1V7h-1z"></path></g></svg></div>
+      Declined
+    </div>
+  </div>
+  <div class="date">Jun 12</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$3.19</span>
+  </div>
+</div>
+</li>
+    <li id="ember1190" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1191="1191">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1192" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/m_7eleven.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      7-Eleven
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="alert icon" id="ember1193" class="inline-svg inline-history-icon inline-history-icon--alert ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><g fill="#999" fill-rule="evenodd"><path d="M7.845 2.227L3.377 9.79c-.166.28-.205.21.126.21h8.994c.335 0 .293.073.126-.21L8.155 2.227c-.173-.292-.137-.292-.31 0zm-.86-.508c.56-.95 1.472-.946 2.03 0l4.47 7.562c.56.95.121 1.719-.988 1.719H3.503c-1.106 0-1.546-.773-.987-1.719L6.984 1.72z"></path><path d="M7.5 8h1v1h-1zM7.5 4.5h1V7h-1z"></path></g></svg></div>
+      Declined
+    </div>
+  </div>
+  <div class="date">Jun 12</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$3.19</span>
+  </div>
+</div>
+</li>
+    <li id="ember1195" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1196="1196">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1197" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/apps/imgs/1LZ3cP68Nd2XqQLr7gRLU.jpeg?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <div title="business icon" id="ember1198" class="inline-svg inline-history-icon inline-history-icon--business ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path d="M1.5 13h1V4h5v3h2v6h1V6h-2V3h-7v10zm3-8v2h-1V5h1zm1 0h1v2h-1V5zm-2 3h1v2h-1V8zm2 0h1v2h-1V8zm-2 3h1v2h-1v-2zm2 0h1v2h-1v-2zm2-3h1v2h-1V8zm0 3h1v2h-1v-2z" fill-rule="evenodd"></path></svg></div>
+      Diego A Vasquez
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="no_symbol icon" id="ember1199" class="inline-svg inline-history-icon inline-history-icon--no-symbol ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><g fill="#999" fill-rule="evenodd"><path d="M8 10.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm0 1a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"></path><path d="M3.757 2.464l.707-.707 7.779 7.779-.707.707z"></path></g></svg></div>
+      Canceled
+    </div>
+  </div>
+  <div class="date">Jun 12</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">+ $222</span>
+  </div>
+</div>
+</li>
+    <li id="ember1201" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1202="1202">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#3F6AFF;" id="ember1203" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_shopping.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Dominos
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1204" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 12</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$100</span>
+  </div>
+</div>
+</li>
+    <li id="ember1206" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1207="1207">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#3F6AFF;" id="ember1208" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_shopping.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Dominos
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1209" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 12</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$100</span>
+  </div>
+</div>
+</li>
+    <li id="ember1211" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1212="1212">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#FF4A4A;" id="ember1213" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_grocerystore.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Uber Pending
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1214" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 12</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$65.33</span>
+  </div>
+</div>
+</li>
+    <li id="ember1216" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1217="1217">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#F46E38;" id="ember1218" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_business.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Wix.com Premium Plan
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="alert icon" id="ember1219" class="inline-svg inline-history-icon inline-history-icon--alert ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><g fill="#999" fill-rule="evenodd"><path d="M7.845 2.227L3.377 9.79c-.166.28-.205.21.126.21h8.994c.335 0 .293.073.126-.21L8.155 2.227c-.173-.292-.137-.292-.31 0zm-.86-.508c.56-.95 1.472-.946 2.03 0l4.47 7.562c.56.95.121 1.719-.988 1.719H3.503c-1.106 0-1.546-.773-.987-1.719L6.984 1.72z"></path><path d="M7.5 8h1v1h-1zM7.5 4.5h1V7h-1z"></path></g></svg></div>
+      Declined
+    </div>
+  </div>
+  <div class="date">Jun 10</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$14.95</span>
+  </div>
+</div>
+</li>
+    <li id="ember1221" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1222="1222">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#FF4A4A;" id="ember1223" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_grocerystore.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Uber Pending
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1224" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 9</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$65.33</span>
+  </div>
+</div>
+</li>
+    <li id="ember1226" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1227="1227">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;" id="ember1228" class="customer-avatar has-image ember-view">  <img src="https://cash-images-f.squarecdn.com/apps/imgs/1LZ3cP68Nd2XqQLr7gRLU.jpeg?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <div title="business icon" id="ember1229" class="inline-svg inline-history-icon inline-history-icon--business ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path d="M1.5 13h1V4h5v3h2v6h1V6h-2V3h-7v10zm3-8v2h-1V5h1zm1 0h1v2h-1V5zm-2 3h1v2h-1V8zm2 0h1v2h-1V8zm-2 3h1v2h-1v-2zm2 0h1v2h-1v-2zm2-3h1v2h-1V8zm0 3h1v2h-1v-2z" fill-rule="evenodd"></path></svg></div>
+      Diego A Vasquez
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="returned icon" id="ember1230" class="inline-svg inline-history-icon inline-history-icon--returned ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12"><g fill="#999" fill-rule="evenodd"><path d="M5 7v1h5.003a3 3 0 0 0 0-6H7v1h3.003a2 2 0 0 1 0 4H5z"></path><path d="M6 5.25L3.25 7.5 6 9.75z"></path></g></svg></div>
+      Refunded
+    </div>
+  </div>
+  <div class="date">Jun 9</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$2</span>
+  </div>
+</div>
+</li>
+    <li id="ember1232" class="activity-list-item ember-view"><div class="activity-list-content flex-container flex-h  " data-ember-action="" data-ember-action-1233="1233">
+  <i style="width:36px;height:36px;font-size:16px;line-height:36px;background-color:#F46E38;" id="ember1234" class="customer-avatar has-image colorize ember-view">  <img src="https://cash-images-f.squarecdn.com/merchants/assets/v3/generic/m_category_business.png?width=33" class="avatar-image">
+
+</i>
+  <div class="title-and-subtitle">
+    <div class="title truncate-text">
+      <!---->
+      Wix.com Premium Plan
+    </div>
+    <div class="subtitle truncate-text">
+      <div title="card icon" id="ember1235" class="inline-svg inline-history-icon inline-history-icon--card ember-view"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16"><g fill-rule="evenodd"><path d="M0 5.997C0 4.894.887 4 2 4h6a2 2 0 0 1 2 1.997v5.006A1.994 1.994 0 0 1 8 13H2a2 2 0 0 1-2-1.997V5.997zm1 .006C1 5.449 1.453 5 1.997 5h6.006C8.553 5 9 5.438 9 6.003v4.994C9 11.551 8.547 12 8.003 12H1.997A.993.993 0 0 1 1 10.997V6.003z"></path><path d="M0 6h10v2H0z"></path></g></svg></div>
+      Not Enough Cash
+    </div>
+  </div>
+  <div class="date">Jun 7</div>
+  <div class="action-amount">
+      <span class="amount amount-treatment-strikethrough">$14.95</span>
+  </div>
+</div>
+</li>
+</ul>
+</div>
+    <div class="loading-wrapper">
+      <div id="ember1236" class="spinner-container ember-view"></div>
+    </div>
+</div>
+</div></section>
+
+    </section>
+  </div>
+</div>
+
+  <!---->
+  <div id="ember1000" class="modal-manager ember-view"><div class="modal-overlay "></div>
+<!----></div>
+</div></div></body>
