@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Cash App</title>
+  <meta name="description" content="">
+  <meta property="og:description" content="">
+  <meta property="og:title" content="Cash App">
+  <meta property="og:site_name" content="Cash App">
+  <meta property="og:type" content="website">
+  
+  
+
+  
+  
+
+  <meta name="twitter:site" content="@CashApp">
+  <meta name="twitter:card" content="app">
+  <meta name="twitter:app:country" content="US">
+  <meta name="twitter:app:name:iphone" content="Cash App">
+  <meta name="twitter:app:id:iphone" content="711923939">
+  <meta name="twitter:app:name:ipad" content="Cash App">
+  <meta name="twitter:app:id:ipad" content="711923939">
+  <meta name="twitter:app:name:googleplay" content="Cash App">
+  <meta name="twitter:app:id:googleplay" content="com.squareup.cash">
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Cash App">
+
+  <meta name="theme-color" content="#0bb634">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no,email=no">
+  <link rel="icon" sizes="196x196" href="/icon-196.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="mask-icon" href="/favicon-pinned.svg" color="#18C300">
+
+  <script nonce="AKuwXjWvHTkYjv8sQ32gScs=">
+    var cdn = {
+      domain: 'https://cash-f.squarecdn.com',
+      url: 'https://cash-f.squarecdn.com/ember',
+      version: 'ad3f113d440728a394958cf1b52bd95bd8dbbcc4'
+    };
+    var bootstrap = {
+      
+      
+    };
+    
+    var csrfToken = 'pu5wejz8yWpH7keOpGN9vhRMzxxLUTq+6CeWk0SM9Qk=';
+    
+    var countryGuess = 'US';
+    
+    (function(){
+      try {
+        // Preload Fonts WOFF for Safari 10+, WOFF2 for Firefox, Chrome uses <link>
+        var ua = navigator.userAgent,
+            isIE = ua.match(/MSIE/) || ua.match('/Trident/'),
+            version = ua.match(/version\/([\w\.]+).+?(mobile\s?safari|safari)/i),
+            isChrome = ua.match(/chrome/i),
+            isSafari = ua.match(/safari/i) && !isChrome,
+            isSafariLess10 = isSafari && version && version[1] && parseFloat(version[1]) < 10,
+            fontSuffix = isSafari ? '.woff)' : '.woff2)',
+            fontPrefix = 'url(' + cdn.domain + '/assets/fonts/cashmarket/cash-market-rounded-';
+        if (!isIE && !isSafariLess10 && !isChrome && 'FontFace' in window) {
+          new FontFace('cashmarket', fontPrefix + 'regular' + fontSuffix, {style: 'normal', weight: '400'}).load();
+          new FontFace('cashmarket', fontPrefix + 'light' + fontSuffix,   {style: 'normal', weight: '300'}).load();
+          new FontFace('cashmarket', fontPrefix + 'medium' + fontSuffix,  {style: 'normal', weight: '500'}).load();
+        }
+      } catch(e) {}
+    }());
+    (function(){
+      let fullHeightFix = function(){
+        let vh = window.innerHeight;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      };
+      window.addEventListener('resize', fullHeightFix);
+      fullHeightFix();
+    }());
+  </script>
+  <script src="https://cash-f.squarecdn.com/ember/ad3f113d440728a394958cf1b52bd95bd8dbbcc4/assets/vendor.js"
+          integrity="sha256-dmWgLuqaPGq6zWHG1+Y2HORuzMmCzioCiUxzMsPIaDQ="
+          crossorigin="anonymous"></script>
+  <script src="https://cash-f.squarecdn.com/ember/ad3f113d440728a394958cf1b52bd95bd8dbbcc4/assets/cash.js"
+          integrity="sha256-dS3VfGJzwW14iFfV1vjH+lRf7PrAVF/J3X+9CmR6UyQ="
+          crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://cash.app",
+      "logo": "https://cash.app/icon-196.png",
+      "name": "Cash App",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-969-1940",
+        "contactType": "customer support",
+        "contactOption": "tollFree"
+      },
+      "sameAs": [
+        "https://twitter.com/cashapp",
+        "https://www.instagram.com/cashapp"
+      ]
+    }
+  </script>
+  <link rel="stylesheet" type="text/css"
+          href="https://cash-f.squarecdn.com/ember/ad3f113d440728a394958cf1b52bd95bd8dbbcc4/assets/cash.css"
+          integrity="sha256-AtA6bWPPHbjBnZ0x3VhgNxheY3HFQskgioaqOUnpotE="
+          crossorigin="anonymous">
+  <link rel="preload" href="https://cash-f.squarecdn.com/assets/fonts/cashmarket/cash-market-rounded-light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://cash-f.squarecdn.com/assets/fonts/cashmarket/cash-market-rounded-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://cash-f.squarecdn.com/assets/fonts/cashmarket/cash-market-rounded-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+</head>
+<body>
+  <script nonce="AKuwXjWvHTkYjv8sQ32gScs=">
+    window.App = require('cash/app')["default"].create();
+  </script>
+</body>
+</html>
